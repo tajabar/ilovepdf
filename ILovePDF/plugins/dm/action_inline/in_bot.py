@@ -17,7 +17,7 @@ async def download(current, total, bot, message):
                 [[
                     InlineKeyboardButton(
                         "📥 DOWNLOADED {:.2f}% 📥".format(current / total * 100),
-                        callback_data="https://t.me/@i2pdfbot",)
+                        callback_data="https://t.me/i2pdfbot",)
                 ]]
             )
         )
@@ -97,7 +97,7 @@ async def openInBot(bot, message, md5: Union[str, int]) -> bool:
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                        "🐍 بدا تحميل 🐍", callback_data="https://t.me/@i2pdfbot",)
+                        "🐍 بدا تحميل 🐍", callback_data="https://t.me/i2pdfbot",)
                 ]]
             )
         )

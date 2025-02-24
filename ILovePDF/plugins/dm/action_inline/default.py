@@ -64,10 +64,10 @@ async def default_ans(inline_query) -> list:
             ),
             InlineQueryResultArticle(
                 thumb_url="https://i.imgur.com/ylUGuxH.png",
-                title="🌟SOURCE CODE 🌟",
+                title="🌟channel 🌟",
                 description="About Source Code..",
                 input_message_content=InputTextMessageContent(
-                    f"https://github.com/nabilanavab/ilovepdf",
+                    f"https://telegram.dog/i2pdfbotchannel",
                     disable_web_page_preview=True,
                 ),
             ),

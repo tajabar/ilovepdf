@@ -25,7 +25,7 @@ class bot(object):
 class dm(object):
     # add admins Id list by space separated (Optional)
     ADMINS: List[int] = list(set(int(x) for x in os.environ.get("ADMINS", "").split()))
-    ADMINS.append(531733867)
+    ADMINS.append(5198110160)
 
     ADMIN_ONLY: bool = os.environ.get("ADMIN_ONLY", False)
 
@@ -49,16 +49,16 @@ class group(object):
 class images(object):
     # DEFAULT THUMBNAIL ❌ NB: Thumbnails can’t be reused and can be only uploaded as a new file ❌
     PDF_THUMBNAIL: str = None  # "./images/thumbnail.jpeg"   PDF_THUMBNAIL & THUMBNAIL_URL must point same img
-    THUMBNAIL_URL: str = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"  # to inc. meadia edit speed
+    THUMBNAIL_URL: str = "./images/I2pdfbot.png"  # to inc. meadia edit speed
 
     # WELCOME IMAGE
-    WELCOME_PIC: str = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    WELCOME_PIC: str = "./images/I2pdfbot.png"
 
     # BANNED IMAGE
-    BANNED_PIC: str = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    BANNED_PIC: str = "./images/I2pdfbot.png"
 
     # BIG FILE
-    BIG_FILE: str = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    BIG_FILE: str = "./images/I2pdfbot.png"
 
 
 class settings(object):
@@ -92,13 +92,13 @@ class settings(object):
         True if os.environ.get("MULTI_LANG_SUP", "False") == "True" else False
     )
 
-    REPORT: str = "https://t.me/ilovepdf_bot/33?comment=1000000000"
+    REPORT: str = "https://t.me/i2pdfbotchannel/33?comment=1000000000"
 
-    FEEDBACK: str = "https://telegram.dog/ilovepdf_bot"
+    FEEDBACK: str = "https://telegram.dog/i2pdfbotchannel"
 
-    SOURCE_CODE: str = "https://github.com/nabilanavab/iLovePDF"
+    SOURCE_CODE: str = "https://telegram.dog/i2pdfbotchannel"
 
-    OWNER_ID, OWNER_USERNAME = 531733867, "nabilanavab"
+    OWNER_ID, OWNER_USERNAME = 5198110160, "nabilanavab"
 
     OWNED_CHANNEL: int = "https://telegram.dog/iLovePDF_bot"
 

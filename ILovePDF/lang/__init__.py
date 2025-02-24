@@ -8,13 +8,8 @@ file_name = "ILovePDF/lang/__init__.py"
 from configs.config import settings
 
 langList = {
-        "eng" : ["🅴🅽🅶🅻🅸🆂🅷", "English"] ,
-        "arb" : ["🅰🆁🅰🅱🅸🅲", "عربي"] ,
-        "hnd" : ["🅷🅸🅽🅳🅸", "हिन्दी" ] ,
-        "uzb" : ["🆄🆉🅱🅴🅺", "Uzbek"] ,
-        "spn" : ["🆂🅿🅰🅽🅸🆂🅷", "español"] ,
-        "frn" : ["🅵🆁🅴🅽🅲🅷", "française"] ,
-        "ita" : ["🅸🆃🅰🅻🅸🅰🅽", "italiana"] ,
+        "eng" : ["🅴🅽🅶🅻🅸🆂🅷", "عربي"] ,
+        "arb" : ["🅰🆁🅰🅱🅸🅲", "English"] ,
     }
 
 # Display Lang in a Beutiful Way

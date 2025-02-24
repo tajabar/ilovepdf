@@ -32,7 +32,7 @@ async def stop(bot, message):
                 "MESSAGE FOR ADMIN: Currently Broadsting Something.. 🥱", quote=True
             )
         settings.STOP_BOT = not settings.STOP_BOT
-        reply = "MESSAGE FOR ADMIN: `bot stoped..` 🗽" if settings.STOP_BOT else "MESSAGE FOR ADMIN: `bot started..` ✨"
+        reply = "MESSAGE FOR ADMIN: `توقف البوت` 🗽" if settings.STOP_BOT else "MESSAGE FOR ADMIN: `بدا البوت` ✨"
         await message.reply(reply)
 
         # when the bot get started it notifies the users asked to notify
@@ -62,11 +62,11 @@ async def send(bot, message):
         await message.reply_chat_action(enums.ChatAction.TYPING)
         
         if not message.reply_to_message:
-            error = await message.reply("⚙️ `Processing..`", quote=True)
+            error = await message.reply("⚙️ `المعالجة..`", quote=True)
             await asyncio.sleep(1)
             return await error.edit("__please, reply to a message__ 🥲")
 
-        msg = await message.reply_to_message.reply("⚙️ `Processing..`", quote=True)
+        msg = await message.reply_to_message.reply("⚙️ `المعالجة..`", quote=True)
         await message.delete()
         
         return await msg.edit(

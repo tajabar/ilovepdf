@@ -20,7 +20,7 @@ MERGEsize = {}
 
 async def askPDF(bot, callbackQuery, question: str, size: str) -> (bool, list):
     """
-    return a list of pdf files ID saved on telegram
+    إرجاع قائمة بملفات pdf التي تم حفظها على التليجرام
     """
     try:
         mergeId = [callbackQuery.message.reply_to_message.document.file_id]

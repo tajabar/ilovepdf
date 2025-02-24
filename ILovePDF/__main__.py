@@ -162,8 +162,8 @@ class Bot(ILovePDF):
             f"❤ BOT ID: {myID[0].id}\n"
             f"❤ BOT FILENAME: {myID[0].first_name}\n"
             f"❤ BOT USERNAME: {myID[0].username}\n\n"
-            f"❤ SOURCE-CODE By: @nabilanavab 👑\n"
-            f"❤ BOT CHANNEL: t.me/iLovePDF_bot\n\n"
+            f"❤ SOURCE-CODE By: @ta_ja199 👑\n"
+            f"❤ BOT CHANNEL: t.me/i2pdfbot\n\n"
             f"{iLovePDF}"
         )
 

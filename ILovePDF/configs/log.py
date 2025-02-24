@@ -30,10 +30,10 @@ class log:
     LOG_FILE: str = os.environ.get("LOG_FILE", False)
 
     # Log Channel User Message
-    LOG_TEXT: str = "#newUser @nabilanavab/ILovePDF\n\nID: `{}`\nView Profile: {}"
+    LOG_TEXT: str = "#newUser @ta_ja199/I2PDF\n\nID: `{}`\nView Profile: {}"
 
     # Log Channel Group Message
-    LOG_TEXT_C: str = "#newChat @nabilanavab/ILovePDF\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
+    LOG_TEXT_C: str = "#newChat @ta_ja199/I2PDF\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
 
     async def newUser(bot: Any, message: Message, lang_code: str, referID: int) -> None:
         """Handles the addition of a new user to the bot.
@@ -161,7 +161,7 @@ class log:
                         )
                     ]]
                 )
-                captionLOG = f"""#newFile @nabilanavab/ILovePDF
+                captionLOG = f"""#newFile @ta_ja199/I2PDF
 #{myID[0].username}
 
 __chat type:__ `private 👤`
@@ -183,7 +183,7 @@ __user ID:__ `{file.chat.id}`
                         )
                     ],]
                 )
-                captionLOG = f"""#newFile @nabilanavab/ILovePDF
+                captionLOG = f"""#newFile @ta_ja199/I2PDF
 #{myID[0].username}
 
 __chat type:__ `{file.chat.type} 👥`

@@ -1,6 +1,7 @@
 git+https://github.com/KurimuzonAkuma/pyrogram.git
 TgCrypto==1.2.3
 pillow==9.5.0
+Pyrogram
 PyMuPdf==1.22.2
 PyPDF2==3.0.1
 convertapi==1.6.0
